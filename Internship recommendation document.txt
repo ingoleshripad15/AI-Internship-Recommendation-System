@@ -1,0 +1,41 @@
+AI based Internship recommendation system
+
+Data            → CSV
+Processing      → Pandas
+Text Encoding   → TF-IDF (stop words removed)
+ML Model        → Cosine Similarity
+Backend API     → FastAPI
+Database        → SQLite / MySQL (user data)
+Frontend        → HTML + CSS + JavaScript
+
+
+| Component | Responsibility       |
+| --------- | -------------------- |
+| CSV       | Internship dataset   |
+| MySQL     | User input & history |
+| Backend   | ML processing        |
+| TF-IDF    | Text → vectors       |
+| Cosine    | Similarity           |
+| Frontend  | Input & display      |
+
+ML code breakdown :
+
+1.def recommend_by_text(user_query, top_n=5):
+Converts user input text into a TF-IDF vector
+Uses the same vectorizer trained on internship data
+[user_query] → list format required by transform()
+
+2. similarity_scores = cosine_similarity(query_vector, tfidf_matrix)[0]
+Compares user vector with all internship vectors
+Calculates similarity score for each internship
+[0] → extracts first row (because query is single)
+
+3.top_indices = similarity_scores.argsort()[::-1][:top_n]
+argsort() → gives indices in ascending order
+[::-1] → reverses order (highest similarity first)
+[:top_n] → selects top N results
+
+4.return df.iloc[top_indices]
+Fetches internship details from DataFrame
+Uses row indices from similarity ranking
+Returns recommended internships as a table

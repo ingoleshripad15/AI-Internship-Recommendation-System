@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommended Internships - AI Internship Recommendation</title>
+   <link rel="stylesheet" href="/static/result_page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Background -->
+    <div class="bg-image"></div>
+    <div class="bg-overlay"></div>
+
+    <!-- Floating Orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="navbar-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🎯</span>
+                <span class="logo-text">InternAI</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="details.html">Details</a>
+                <a href="#" class="active">Results</a>
+            </nav>
+            <div class="nav-auth">
+                <a href="#" class="btn-outline-sm">Log In</a>
+                <a href="index.html" class="btn-primary-sm">Sign Up</a>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="mobile-nav" id="mobileNav">
+            <a href="index.html">Home</a>
+            <a href="details.html">Details</a>
+            <a href="#">Results</a>
+            <a href="#">Log In</a>
+            <a href="index.html">Sign Up</a>
+        </nav>
+    </header>
+
+    <!-- Page Content -->
+    <main class="page-content">
+        <div class="page-header">
+            <span class="badge"><span class="pulse-dot"></span> AI Matched</span>
+            <h1>Recommended <span class="text-gradient">Internships</span></h1>
+            <p class="subtitle">Based on your profile, here are your top matches.</p>
+        </div>
+
+        <!-- Results Grid -->
+        <div class="results-grid">
+
+{% for internship in results %}
+
+<div class="result-card glass-card">
+
+    <!-- 🏆 Best Match Badge -->
+    {% if loop.index == 1 %}
+    <span style="color: gold; font-weight: bold;">🏆 Best Match</span>
+    {% endif %}
+
+    <h3>{{ internship.title }}</h3>
+
+    <!-- 🔥 Match Score -->
+    <p style="color: green; font-weight: bold;">
+        🔥 {{ internship.match_score }}% Match
+    </p>
+
+    <p style="font-size: 12px; color: gray;">
+        Based on your skills & preferences
+    </p>
+
+    <p><b>Domain:</b> {{ internship.domain }}</p>
+    <p><b>Skills:</b> {{ internship.skills }}</p>
+    <p>{{ internship.description }}</p>
+
+</div>
+
+{% endfor %}
+
+</div>
+<br>
+
+            <!-- Card 2 -->
+ <div class="results-grid">
+
+{% for internship in results %}
+
+<div class="result-card glass-card" style="animation-delay: {{ loop.index }}s">
+
+    <!-- 🏆 Best Match -->
+    {% if loop.index == 1 %}
+    <span style="color: gold; font-weight: bold;">🏆 Best Match</span>
+    {% endif %}
+
+    <div class="card-header">
+        <div class="card-badge badge-match">
+            {{ internship.match_score }}% Match
+        </div>
+        <div class="card-badge badge-mode">
+            {{ internship.mode }}
+        </div>
+    </div>
+
+    <h3 class="card-title">{{ internship.title }}</h3>
+
+    <div class="card-meta">
+        <span>🏛️ {{ internship.organization }}</span>
+        <span>📍 {{ internship.location }}</span>
+        <span>⏱️ {{ internship.duration_weeks }} Weeks</span>
+    </div>
+
+    <p><strong>Domain:</strong> {{ internship.domain }}</p>
+    <p><strong>Skills:</strong> {{ internship.skills }}</p>
+    <p>{{ internship.description }}</p>
+
+    <a href="#" class="btn-apply">Apply Now →</a>
+
+</div>
+
+{% endfor %}
+
+</div>
+        <!-- Back button -->
+        <div class="back-section">
+            <a href="details.html" class="btn-back">← Modify Search</a>
+        </div>
+    </main>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('mobileNav').classList.toggle('open');
+        }
+    </script>
+</body>
+</html>

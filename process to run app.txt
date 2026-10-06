@@ -1,0 +1,3 @@
+run main.py
+then run - uvicorn main:app --reload
+then click the link : enter email: any Password : abc123

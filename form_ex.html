@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Internship Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>AI-Based Internship Recommendation</h2>
+    <p class="subtitle">Find government internships based on your profile</p>
+
+    <form id="internshipForm">
+
+        <!-- Domain -->
+        <label>Interested Domain *</label>
+        <input type="text" name="domain" placeholder="e.g. Data Science, Cyber Security" required>
+
+        <!-- Skills -->
+        <label>Skills</label>
+        <input type="text" name="skills" placeholder="e.g. Python, SQL, ML">
+
+        <!-- Education -->
+        <label>Education Level</label>
+        <select name="education">
+            <option value="Any">Any</option>
+            <option value="Undergraduate">Undergraduate</option>
+            <option value="Postgraduate">Postgraduate</option>
+            <option value="Diploma">Diploma</option>
+        </select>
+
+        <!-- Location -->
+        <label>Preferred Location</label>
+        <select name="location">
+            <option value="Any">Any</option>
+            <option value="Remote">Remote</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Pune">Pune</option>
+        </select>
+
+        <!-- Mode -->
+        <label>Internship Mode</label>
+        <div class="radio-group">
+            <label><input type="radio" name="mode" value="Any" checked> Any</label>
+            <label><input type="radio" name="mode" value="Remote"> Remote</label>
+            <label><input type="radio" name="mode" value="Onsite"> Onsite</label>
+            <label><input type="radio" name="mode" value="Hybrid"> Hybrid</label>
+        </div>
+
+        <!-- Duration -->
+        <label>Duration (Weeks)</label>
+        <select name="duration">
+            <option value="Any">Any</option>
+            <option value="4">4</option>
+            <option value="6">6</option>
+            <option value="8">8</option>
+            <option value="12">12</option>
+        </select>
+
+        <!-- Ministry -->
+        <label>Preferred Ministry</label>
+        <select name="ministry">
+            <option value="Any">Any</option>
+            <option value="MeitY">MeitY</option>
+            <option value="MoE">Ministry of Education</option>
+            <option value="NITI Aayog">NITI Aayog</option>
+            <option value="MoHFW">MoHFW</option>
+        </select>
+
+        <button type="submit">Get Recommendations</button>
+
+    </form>
+</div>
+
+</body>
+</html>

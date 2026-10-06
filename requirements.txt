@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+scikit-learn
+mysql-connector-python
+python-multipart
+jinja2
+itsdangerous
+python-dotenv

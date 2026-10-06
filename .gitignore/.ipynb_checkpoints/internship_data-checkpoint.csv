@@ -1,0 +1,91 @@
+id,title,organization,domain,skills,location,duration_weeks,eligibility,mode,description,source
+INT001,Data Analysis Intern,Ministry of Education,Data Science,"Python;Excel;Statistics",Remote,8,Undergraduate,Remote,Analyze education datasets for policy insights,PM Internship Portal
+INT002,AI Research Intern,MeitY,AI & ML,"Python;ML;Deep Learning",Remote,12,Postgraduate,Remote,Assist in AI research and model development,PM Internship Portal
+INT003,Web Development Intern,Ministry of Tourism,Web Development,"HTML;CSS;JavaScript",Delhi,8,Undergraduate,Onsite,Develop and maintain tourism portals,PM Internship Portal
+INT004,Cybersecurity Intern,CERT-In,Cybersecurity,"Networking;Linux;Security",Delhi,12,Postgraduate,Onsite,Assist in cyber threat analysis,PM Internship Portal
+INT005,Policy Research Intern,NITI Aayog,Public Policy,"Research;MS Word;Data Analysis",Delhi,10,Postgraduate,Onsite,Policy evaluation and report drafting,PM Internship Portal
+INT006,Finance Intern,Ministry of Finance,Finance,"Accounting;Excel;Economics",Delhi,8,Undergraduate,Onsite,Budget and expenditure analysis,PM Internship Portal
+INT007,Software Development Intern,CDAC,Software Engineering,"C++;Java;DSA",Pune,12,Undergraduate,Onsite,Develop government software solutions,PM Internship Portal
+INT008,Data Visualization Intern,MoSPI,Data Analytics,"Power BI;Tableau;Excel",Remote,8,Undergraduate,Remote,Create dashboards for national statistics,PM Internship Portal
+INT009,Machine Learning Intern,DRDO,AI & ML,"Python;ML;TensorFlow",Bangalore,12,Postgraduate,Onsite,Defense-related ML projects,PM Internship Portal
+INT010,GIS Intern,Survey of India,GIS,"QGIS;ArcGIS;Mapping",Dehradun,8,Undergraduate,Onsite,Geospatial data processing,PM Internship Portal
+INT011,HR Analytics Intern,Ministry of Labour,HR Analytics,"Excel;Statistics;HRM",Remote,6,Undergraduate,Remote,Work on employment datasets,PM Internship Portal
+INT012,Economics Research Intern,RBI,Economics,"Econometrics;R;Excel",Mumbai,12,Postgraduate,Onsite,Macroeconomic data research,PM Internship Portal
+INT013,UI/UX Design Intern,Digital India,UI/UX,"Figma;UX Research;Design",Remote,8,Undergraduate,Remote,Improve usability of gov platforms,PM Internship Portal
+INT014,Cloud Computing Intern,MeitY,Cloud,"AWS;Linux;Networking",Remote,10,Undergraduate,Remote,Assist cloud migration projects,PM Internship Portal
+INT015,Blockchain Intern,NIC,Blockchain,"Blockchain;Solidity;Ethereum",Delhi,12,Postgraduate,Onsite,Government blockchain pilots,PM Internship Portal
+INT016,IoT Intern,ISRO,IoT,"Sensors;Embedded C;Arduino",Bangalore,12,Undergraduate,Onsite,Satellite hardware IoT support,PM Internship Portal
+INT017,Statistics Intern,NSO,Statistics,"Statistics;R;Excel",Remote,8,Undergraduate,Remote,Statistical survey analysis,PM Internship Portal
+INT018,Legal Research Intern,Ministry of Law,Law,"Legal Research;Drafting",Delhi,8,Law Student,Onsite,Legal documentation support,PM Internship Portal
+INT019,Content Writing Intern,MyGov,Content,"Writing;Communication;SEO",Remote,6,Undergraduate,Remote,Public awareness content creation,PM Internship Portal
+INT020,Database Management Intern,NIC,Databases,"SQL;MySQL;DBMS",Delhi,8,Undergraduate,Onsite,Maintain national databases,PM Internship Portal
+INT021,AI Ethics Intern,NITI Aayog,AI Policy,"Ethics;AI;Research",Delhi,10,Postgraduate,Onsite,Responsible AI policy research,PM Internship Portal
+INT022,Mobile App Development Intern,Digital India,App Development,"Flutter;Android;Firebase",Remote,10,Undergraduate,Remote,Develop citizen service apps,PM Internship Portal
+INT023,Robotics Intern,DRDO,Robotics,"Robotics;Python;Control Systems",Pune,12,Postgraduate,Onsite,Autonomous defense systems,PM Internship Portal
+INT024,Energy Data Intern,Ministry of Power,Energy Analytics,"Python;Excel;Energy Systems",Delhi,8,Undergraduate,Onsite,Energy consumption analysis,PM Internship Portal
+INT025,Climate Research Intern,MoEFCC,Environmental Science,"Climate Models;Data Analysis",Remote,10,Postgraduate,Remote,Climate impact research,PM Internship Portal
+INT026,Supply Chain Intern,Ministry of Commerce,Supply Chain,"Logistics;Excel;Analysis",Delhi,8,Undergraduate,Onsite,Trade logistics optimization,PM Internship Portal
+INT027,Digital Marketing Intern,Incredible India,Marketing,"SEO;Analytics;Content",Remote,6,Undergraduate,Remote,Promote tourism campaigns,PM Internship Portal
+INT028,Network Engineering Intern,BSNL,Networking,"CCNA;Routing;Switching",Delhi,12,Undergraduate,Onsite,Telecom infrastructure support,PM Internship Portal
+INT029,Big Data Intern,MeitY,Big Data,"Hadoop;Spark;Python",Remote,12,Postgraduate,Remote,Large-scale gov data processing,PM Internship Portal
+INT030,Research Assistant Intern,ICMR,Healthcare Research,"Research;SPSS;Data Analysis",Delhi,10,Postgraduate,Onsite,Public health research projects,PM Internship Portal
+INT031,Computer Vision Intern,ISRO,AI & ML,"OpenCV;Python;DL",Bangalore,12,Postgraduate,Onsite,Satellite image analysis,PM Internship Portal
+INT032,Economics Policy Intern,NITI Aayog,Public Policy,"Policy Analysis;Excel",Delhi,8,Postgraduate,Onsite,Economic reforms research,PM Internship Portal
+INT033,DevOps Intern,NIC,DevOps,"Docker;CI/CD;Linux",Remote,10,Undergraduate,Remote,Automate deployment pipelines,PM Internship Portal
+INT034,Data Engineering Intern,MoSPI,Data Engineering,"ETL;SQL;Python",Remote,12,Undergraduate,Remote,Build data pipelines,PM Internship Portal
+INT035,AI Chatbot Intern,MyGov,AI Applications,"NLP;Python;Chatbots",Remote,8,Undergraduate,Remote,Citizen service chatbot development,PM Internship Portal
+INT036,Electronics Intern,BHEL,Electronics,"VLSI;Embedded Systems",Bhopal,12,Undergraduate,Onsite,Power electronics design,PM Internship Portal
+INT037,Urban Planning Intern,MoHUA,Urban Planning,"GIS;Urban Policy",Delhi,10,Postgraduate,Onsite,Smart city planning projects,PM Internship Portal
+INT038,Data Quality Intern,UIDAI,Data Governance,"Data Validation;SQL",Delhi,8,Undergraduate,Onsite,Aadhaar data quality audits,PM Internship Portal
+INT039,AI Model Evaluation Intern,MeitY,AI & ML,"Model Evaluation;Python",Remote,8,Postgraduate,Remote,Benchmark AI models,PM Internship Portal
+INT040,Statistical Modelling Intern,CSO,Statistics,"Regression;R;Excel",Remote,10,Postgraduate,Remote,Forecasting national indices,PM Internship Portal
+INT041,Information Security Intern,NIC,Security,"ISO Standards;Risk Analysis",Delhi,8,Postgraduate,Onsite,Government IT security audits,PM Internship Portal
+INT042,Data Cleaning Intern,MoSPI,Data Analytics,"Python;Pandas;Cleaning",Remote,6,Undergraduate,Remote,Preprocess survey datasets,PM Internship Portal
+INT043,AI for Agriculture Intern,ICAR,AgriTech,"ML;Remote Sensing",Remote,12,Postgraduate,Remote,Crop yield prediction models,PM Internship Portal
+INT044,E-Governance Intern,Digital India,E-Governance,"Public Admin;IT Systems",Delhi,8,Undergraduate,Onsite,Digital governance initiatives,PM Internship Portal
+INT045,Software Testing Intern,STQC,Software Testing,"Manual Testing;Automation",Delhi,8,Undergraduate,Onsite,Quality assurance for gov apps,PM Internship Portal
+INT046,Data Governance Intern,MeitY,Data Governance,"Data Privacy;Policy;SQL",Delhi,8,Postgraduate,Onsite,Assist in national data governance framework,PM Internship Portal
+INT047,AI Policy Intern,NITI Aayog,AI Policy,"AI Ethics;Research;Policy",Delhi,10,Postgraduate,Onsite,Research AI regulations and frameworks,PM Internship Portal
+INT048,Web Analytics Intern,MyGov,Analytics,"Google Analytics;SEO;Excel",Remote,6,Undergraduate,Remote,Analyze citizen engagement metrics,PM Internship Portal
+INT049,Embedded Systems Intern,ISRO,Embedded Systems,"Embedded C;RTOS;Microcontrollers",Bangalore,12,Undergraduate,Onsite,Develop onboard embedded modules,PM Internship Portal
+INT050,Data Annotation Intern,MeitY,AI & ML,"Data Labeling;Python",Remote,6,Undergraduate,Remote,Prepare datasets for AI training,PM Internship Portal
+INT051,Financial Data Intern,SEBI,Finance Analytics,"Excel;Financial Analysis",Mumbai,8,Postgraduate,Onsite,Analyze securities market data,PM Internship Portal
+INT052,Health Informatics Intern,MoHFW,Health Tech,"Health Data;Python;Excel",Delhi,10,Postgraduate,Onsite,Digital health data management,PM Internship Portal
+INT053,Digital Archive Intern,National Archives,Digital Preservation,"Archiving;Metadata;IT",Delhi,8,Undergraduate,Onsite,Digitize historical records,PM Internship Portal
+INT054,AI NLP Intern,CDAC,AI & ML,"NLP;Python;Transformers",Pune,12,Postgraduate,Onsite,Language technology development,PM Internship Portal
+INT055,IT Support Intern,UIDAI,IT Support,"Networking;Hardware;Troubleshooting",Delhi,8,Undergraduate,Onsite,Support Aadhaar IT systems,PM Internship Portal
+INT056,Econometrics Intern,Planning Commission,Economics,"Econometrics;Stata;R",Delhi,12,Postgraduate,Onsite,Economic forecasting models,PM Internship Portal
+INT057,Smart City Data Intern,MoHUA,Urban Analytics,"IoT Data;Python;GIS",Remote,10,Undergraduate,Remote,Smart city performance analytics,PM Internship Portal
+INT058,Open Data Intern,data.gov.in,Open Data,"Data Publishing;CSV;APIs",Remote,6,Undergraduate,Remote,Manage government open datasets,PM Internship Portal
+INT059,Computer Networks Intern,BSNL,Networking,"TCP/IP;Linux;Routing",Hyderabad,12,Undergraduate,Onsite,Core network operations,PM Internship Portal
+INT060,AI Model Deployment Intern,NIC,AI Engineering,"FastAPI;Docker;Python",Remote,10,Undergraduate,Remote,Deploy AI services for gov apps,PM Internship Portal
+INT061,Digital Payments Intern,NPCI,FinTech,"UPI;Payments;Analytics",Mumbai,8,Postgraduate,Onsite,Analyze digital payment systems,PM Internship Portal
+INT062,Satellite Data Intern,NRSC,Remote Sensing,"Satellite Imagery;GIS;Python",Hyderabad,12,Postgraduate,Onsite,Earth observation data analysis,PM Internship Portal
+INT063,Legal Tech Intern,Ministry of Law,Legal Tech,"Legal Databases;Tech Research",Delhi,8,Law Student,Onsite,Digitization of legal records,PM Internship Portal
+INT064,Data Security Intern,CERT-In,Cybersecurity,"Encryption;Risk Assessment",Delhi,10,Postgraduate,Onsite,National cyber risk analysis,PM Internship Portal
+INT065,Education Technology Intern,NCERT,EdTech,"Content Design;Learning Analytics",Delhi,8,Undergraduate,Onsite,Digital learning platforms,PM Internship Portal
+INT066,AI for Traffic Intern,MoRTH,AI Applications,"Computer Vision;Python",Delhi,10,Postgraduate,Onsite,Traffic monitoring AI systems,PM Internship Portal
+INT067,Backend Development Intern,NIC,Backend Development,"Node.js;APIs;Databases",Remote,10,Undergraduate,Remote,Build scalable gov APIs,PM Internship Portal
+INT068,Data Journalism Intern,PIB,Journalism,"Data Storytelling;Visualization",Delhi,8,Undergraduate,Onsite,Data-driven public communication,PM Internship Portal
+INT069,Robotic Process Automation Intern,MeitY,RPA,"UiPath;Automation;Workflow",Remote,8,Undergraduate,Remote,Automate gov processes,PM Internship Portal
+INT070,AI Image Processing Intern,DRDO,AI & ML,"Image Processing;Python;CNN",Chennai,12,Postgraduate,Onsite,Defense imaging systems,PM Internship Portal
+INT071,Power Systems Intern,NTPC,Electrical Engineering,"Power Systems;MATLAB",Noida,12,Undergraduate,Onsite,Energy grid analytics,PM Internship Portal
+INT072,Data Warehousing Intern,MoSPI,Data Engineering,"Data Warehouse;SQL;ETL",Remote,10,Undergraduate,Remote,National data warehouse support,PM Internship Portal
+INT073,Agri Data Intern,Ministry of Agriculture,AgriTech,"Crop Data;Excel;Python",Delhi,8,Undergraduate,Onsite,Analyze agricultural datasets,PM Internship Portal
+INT074,Digital Identity Intern,UIDAI,Digital Identity,"Biometrics;Security;IT",Delhi,10,Postgraduate,Onsite,Identity systems research,PM Internship Portal
+INT075,AI Recommendation Intern,MeitY,AI & ML,"Recommender Systems;Python",Remote,12,Postgraduate,Remote,AI-based citizen services,PM Internship Portal
+INT076,Transport Analytics Intern,Indian Railways,Transport Analytics,"Operations Research;Excel",Delhi,8,Undergraduate,Onsite,Railway operations analysis,PM Internship Portal
+INT077,Software Documentation Intern,STQC,Software Quality,"Documentation;Standards",Delhi,6,Undergraduate,Onsite,Technical documentation tasks,PM Internship Portal
+INT078,Climate Data Intern,IMD,Climate Science,"Weather Data;Python;Stats",Pune,12,Postgraduate,Onsite,Climate pattern analysis,PM Internship Portal
+INT079,AI Model Training Intern,CDAC,AI & ML,"GPU Training;PyTorch",Pune,12,Postgraduate,Onsite,Train large AI models,PM Internship Portal
+INT080,Economic Survey Intern,MoF,Economics,"Economic Analysis;Excel",Delhi,8,Postgraduate,Onsite,Assist economic survey preparation,PM Internship Portal
+INT081,Data Ethics Intern,MeitY,Data Ethics,"Ethics;Policy;AI",Remote,6,Postgraduate,Remote,Ethical data usage studies,PM Internship Portal
+INT082,Web Accessibility Intern,Digital India,Web Standards,"WCAG;HTML;UX",Remote,8,Undergraduate,Remote,Improve accessibility of gov sites,PM Internship Portal
+INT083,AI Forecasting Intern,CSIR,AI & ML,"Time Series;Python;Stats",Delhi,12,Postgraduate,Onsite,Scientific forecasting models,PM Internship Portal
+INT084,Public Health Data Intern,AIIMS,Healthcare Analytics,"Health Records;Python",Delhi,10,Postgraduate,Onsite,Clinical data analytics,PM Internship Portal
+INT085,Digital Forensics Intern,CERT-In,Forensics,"Digital Forensics;Linux",Delhi,12,Postgraduate,Onsite,Incident investigation support,PM Internship Portal
+INT086,AI in Education Intern,UGC,EdTech AI,"ML;Education Data",Delhi,8,Postgraduate,Onsite,AI for learning outcomes,PM Internship Portal
+INT087,Logistics Analytics Intern,Ministry of Defence,Operations Analytics,"Optimization;Excel",Delhi,10,Postgraduate,Onsite,Defense logistics optimization,PM Internship Portal
+INT088,Open Source Intern,MeitY,Open Source,"Git;Linux;Python",Remote,8,Undergraduate,Remote,Contribute to gov OSS projects,PM Internship Portal
+INT089,Speech Recognition Intern,ISRO,AI & ML,"Speech Processing;Python",Bangalore,12,Postgraduate,Onsite,Voice-based control systems,PM Internship Portal
+INT090,Data Product Intern,NIC,Data Products,"Product Thinking;Analytics",Remote,8,Undergraduate,Remote,Build data-driven gov products,PM Internship Portal
